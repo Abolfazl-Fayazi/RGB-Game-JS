@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+header {
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+h1 {
+  font-size: 4rem;
+  margin: 1.5rem;
+  padding: 0;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+}
+.R {
+  color: red;
+}
+.G {
+  color: rgb(0, 255, 0);
+}
+.B {
+  color: rgb(31, 169, 255);
+}
+span {
+  color: white;
+}
+.setting {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.setting__b {
+  background-color: white;
+  border: 0;
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.colors {
+  background-color: #222;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 73vh;
+  padding: 1rem;
+}
+.row {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+.hard {
+  display: none;
+}
+.easy {
+  display: none;
+}
+.color__b {
+  background-color: whitesmoke;
+  border: 0;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 3rem;
+}
+.winning {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.winingMessage {
+  color: grey;
+}
